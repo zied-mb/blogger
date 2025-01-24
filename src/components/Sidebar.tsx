@@ -117,26 +117,7 @@ export default function Sidebar() {
               </div>
             </div>
 
-            {/* Categories Section */}
-            <div className="bg-gray-50/50 rounded-xl p-3">
-              <h3 className="text-md font-semibold text-right mb-3">التصنيفات</h3>
-              <div className="space-y-2">
-                {categories.map((category) => (
-                  <button
-                    key={category.name}
-                    className="w-full flex items-center justify-end p-2 rounded-lg hover:bg-white transition-all group border border-transparent hover:border-indigo-100"
-                  >
-                    <span className="text-xs bg-indigo-50 text-indigo-600 px-2 py-0.5 rounded-full group-hover:bg-indigo-100">
-                      {category.count}
-                    </span>
-                    <span className="flex-1 text-right mr-2 text-gray-800 group-hover:text-indigo-600">
-                      {category.name}
-                    </span>
-                    <category.icon className="h-4 w-4 text-gray-400 group-hover:text-indigo-600" />
-                  </button>
-                ))}
-              </div>
-            </div>
+
 
             {/* Portfolio Link */}
             <Link
