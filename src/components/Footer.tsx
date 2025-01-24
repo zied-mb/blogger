@@ -3,20 +3,20 @@ import { Instagram, Linkedin, Github, Camera } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer className="bg-white shadow-lg mt-8">
+    <footer className="bg-white shadow-lg mt-15">
       <div className="container mx-auto px-4 py-6 flex items-center justify-between">
         <div className="flex space-x-4">
-          <a href="#" className="text-gray-600 hover:text-indigo-600">
-            <Instagram className="h-6 w-6" />
+          <a href="https://www.instagram.com/zied.mb/" className="text-gray-600 hover:text-indigo-600">
+            <Instagram className="h-5 w-5" />
           </a>
-          <a href="#" className="text-gray-600 hover:text-indigo-600">
-            <Linkedin className="h-6 w-6" />
+          <a href="https://www.linkedin.com/in/zied-meddeb-7087a2266/" className="text-gray-600 hover:text-indigo-600">
+            <Linkedin className="h-5 w-5" />
           </a>
-          <a href="#" className="text-gray-600 hover:text-indigo-600">
-            <Github className="h-6 w-6" />
+          <a href="https://github.com/zied-mb" className="text-gray-600 hover:text-indigo-600">
+            <Github className="h-5 w-5" />
           </a>
-          <a href="#" className="text-gray-600 hover:text-indigo-600">
-            <Camera className="h-6 w-6" />
+          <a href="https://www.snapchat.com/add/zied-m" className="text-gray-600 hover:text-indigo-600">
+            <Camera className="h-5 w-5" />
           </a>
         </div>
         
@@ -24,7 +24,7 @@ export default function Footer() {
         
         <div className="relative">
           <img
-            src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+            src="profile.jpg"
             alt="Profile"
             className="h-10 w-10 rounded-full object-cover"
           />

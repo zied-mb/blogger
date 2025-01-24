@@ -3,10 +3,10 @@ import { Instagram, Linkedin, Github, Camera, Bookmark, Siren as Fire, Newspaper
 import { Link } from 'react-router-dom';
 
 const socialLinks = [
-  { icon: Instagram, label: 'Instagram', href: '#', color: 'hover:text-pink-600' },
-  { icon: Linkedin, label: 'LinkedIn', href: '#', color: 'hover:text-blue-600' },
-  { icon: Github, label: 'GitHub', href: '#', color: 'hover:text-gray-900' },
-  { icon: Camera, label: 'Snapchat', href: '#', color: 'hover:text-yellow-500' },
+  { label: 'Instagram', href: 'https://www.instagram.com/zied.mb/', color: 'hover:text-pink-600' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/zied-meddeb-7087a2266/', color: 'hover:text-blue-600' },
+  { label: 'GitHub', href: 'https://github.com/zied-mb', color: 'hover:text-gray-900' },
+  { label: 'Snapchat', href: 'https://www.snapchat.com/add/zied-m', color: 'hover:text-yellow-500' },
 ];
 
 const popularPosts = [
@@ -72,11 +72,11 @@ export default function Sidebar() {
             <div className="text-center relative">
               <div className="absolute inset-0 bg-gradient-to-b from-indigo-500/10 to-transparent -z-10 rounded-xl" />
               <img
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                src="profile.jpg"
                 alt="Profile"
                 className="w-20 h-20 rounded-full mx-auto mb-4 border-4 border-white shadow-xl"
               />
-              <h3 className="font-semibold text-lg text-gray-800">زياد محمد</h3>
+              <h3 className="font-semibold text-lg text-gray-800">Zied MB</h3>
               <p className="text-gray-600 text-sm">مطور ويب و مدون تقني</p>
             </div>
 
