@@ -24,7 +24,7 @@ export default function Footer() {
         
         <div className="relative">
           <img
-            src="profile.jpg"
+            src="profile.jpeg"
             alt="Profile"
             className="h-10 w-10 rounded-full object-cover"
           />
